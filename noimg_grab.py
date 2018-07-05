@@ -105,6 +105,7 @@ def ijk_get_image(prod):
         print(fn, "pid:", pid)
         print(fn, "filetype:", filetype)
         prod.images = 'http://projectbkl.com/wp-content/uploads/' + pcat + '-' + pid + '.' + filetype
+        '''
         req = urllib.request.Request(
             src,
             data=None,
@@ -128,6 +129,7 @@ def ijk_get_image(prod):
 
     else:
         print(fn, "ERROR: ijk image url was null")
+        '''
 
 
 def ijk_get_image_url(prod):
