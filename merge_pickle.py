@@ -5,7 +5,7 @@
 # This program will merge pickles into the argv[1] provided
 import sys
 import pickle
-import pprint
+#import pprint
 
 alen = len(sys.argv)
 
@@ -19,7 +19,7 @@ if alen >= 3:
             prodlist = pickle.load(fi)
 
             for prod in prodlist:
-                print(prod.images)
+                print("Added: " + prod.brand + " to " + prod.categories)
                 newprodlist.append(prod)
                 i += 1
 
