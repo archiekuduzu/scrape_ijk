@@ -8,4 +8,4 @@ stuff we dont need. more control is good.
 # make the ouptut readable
 # make a log file that is seperate to the output in console
 # make the functions easier to use so you can write a variety of scripts
-# you dumbass fuck!
+
